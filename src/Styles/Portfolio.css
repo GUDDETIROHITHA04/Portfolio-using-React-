@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+body{
+  background-color:#1f242d;
+    --second-bg-color:#323946;
+    --main-color:#0ef; 
+    cursor:pointer;
+}
+.about-me{
+  display: flex;
+  align-items:flex-end;
+  justify-content: center;
+}
+.about-img img{
+  height:300px;
+  width:500px;
+}
+.about-content{
+  text-align: justify;
+}
+.about-content h3>sup,FlareIcon{
+  color: #61DAFB;
+  text-align: center;
+}
+.about-content h3{
+  text-align: center;
+}
+.home-img img{
+  height: 70vh;
+  width: 50%;
+}
+.skills-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  
+  .skills-box {
+    color: var(--main-color);
+    padding: 2rem;
+    border-radius: 1rem;
+    width: 150px;
+    transition: transform 0.3s ease;
+  }
+  
+  .skills-box:hover {
+    transform: scale(1.1);
+  }
+  
+  .icon {
+    color: var(--main-color);
+    font-size: 3rem;
+  }
+.html-icon {
+  color: #E34F26; /* HTML5 color */
+}
+
+.css-icon {
+  color: #1572B6; /* CSS3 color */
+}
+
+.js-icon {
+  color: #F7DF1E; /* JavaScript color */
+}
+
+.react-icon {
+  color: #61DAFB; /* React color */
+}
+
+.nodejs-icon {
+  color: #339933; /* Node.js color */
+}
+
+.java-icon {
+  color: #007396; /* Java color */
+}
+
+.mongodb-icon {
+  color: #47A248; /* MongoDB color */
+}
+
+.express-icon {
+  color: #000000; /* Express.js color */
+}
+
+.mysql-icon {
+  color: #4479A1; /* MySQL color */
+}
+
+.python-icon {
+  color: #3776AB; /* Python color */
+}
+  
+.project-card img {
+  height: 200px; 
+}
+
+/* For small screens */
+@media (max-width: 576px) {
+  .home-content h2 {
+    font-size: 1.5rem;
+  }
+  .about-img img {
+    width: 100%;
+    height: auto;
+  }
+  .project-card img {
+    height: auto;
+  }
+  .skills-box {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}
+.home-img img {
+  max-width: 100%;
+  height: auto;
+}
+.home-content h2 {
+  font-size: 2rem;
+}
+@media (max-width: 576px) {
+  .home-content h2 {
+    font-size: 1.5rem;
+  }
+  .home-content p {
+    font-size: 0.9rem;
+  }
+}
+.project-card img {
+  width: 100%;
+  height: auto;
+}
+.skills-box {
+  width: 100%;
+  max-width: 150px;
+  margin: 0 auto;
+}
+@media (max-width: 576px) {
+  .skills-container {
+    gap: 1rem;
+  }
+  .skills-box {
+    max-width: 100px;
+  }
+}
+.contact-form input,.contact-form textarea {
+  width: 100%;
+  margin-bottom: 1rem;
+}
